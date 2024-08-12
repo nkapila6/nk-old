@@ -113,6 +113,7 @@ theme_config:
   nav:
     home: /
     articles: /archives/
+    Tags: /tags/
     about: /about/
     search: /search/
     projects: http://github.com/nkapila6
