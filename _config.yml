@@ -158,3 +158,14 @@ theme_config:
   disqus:
     enabled: true
     shortname: nkapila
+
+#toc config
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor
