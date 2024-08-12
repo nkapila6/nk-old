@@ -1,0 +1,71 @@
+@font-face
+  font-family fa-icon-solid
+  font-style normal
+  font-weight 900
+  src url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.eot")
+  src url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), 
+       url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2") format("woff2"), 
+       url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff") format("woff"), 
+       url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.ttf") format("truetype"), 
+       url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.svg#fontawesome") format("svg")
+
+.alertbox
+  position relative
+  padding 20px 20px 20px 50px  // Increase left padding to make room for the icon
+  margin 20px 0
+  &.alertbox-exclamation
+    border-left 4px #fc0 solid
+    background-color rgba(255,204,0,0.2)
+    &::after
+      color #fc0
+      content "\f06a"
+  &.alertbox-question
+    border-left 4px #d0f solid
+    background-color rgba(221,0,255,0.2)
+    &::after
+      color #d0f
+      content "\f059"
+  &.alertbox-warning
+    border-left 4px #e22500 solid
+    background-color rgba(226,37,0,0.2)
+    &::after
+      color #e22500
+      content "\f057"
+  &.alertbox-info
+    border-left 4px #0088e0 solid
+    background-color rgba(0,136,224,0.2)
+    &::after
+      color #0088e0
+      content "\f05a"
+  &.alertbox-success
+    border-left 4px #00bb1c solid
+    background-color rgba(0,187,28,0.2)
+    &::after
+      color #00bb1c
+      content "\f058"
+  &.alertbox-note
+    border-left 4px #cdcdcd solid
+    background-color rgba(205,205,205,0.2)
+    &::after
+      color #cdcdcd
+      content "\f35a"
+  &::before
+    display none  // No longer needed, so it's hidden
+  &::after
+    position absolute
+    display block
+    top 10px  // Adjust top positioning
+    left 10px  // Adjust left positioning
+    font-family fa-icon-solid
+    font-size 20px  // Adjust size if needed
+  *
+    margin 0 !important
+
+[data-theme="dark"]
+  .alertbox
+    &::before
+      background transparent  // Not needed, but kept for consistency
+
+li
+  & > .alertbox
+    margin 12px
