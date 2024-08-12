@@ -3,17 +3,18 @@ layout: post
 title: 7643 Deep Learning Prep
 abbrlink: 9ae7fcca8f3b4fe58dba72ae6958cf9f
 tags:
+  - omscs
   - prep-work
 categories:
   - Masters in CS
   - 6 FL24 CS7643 DL
 date: 1713940542112
-updated: 1723441969158
+updated: 1723442131661
 ---
 
 moved to [nkapila.me](nkapila.me)
 
-## **Videos**
+## Videos
 
 Switch between videos for different topics that give good intuition
 
@@ -23,20 +24,20 @@ Switch between videos for different topics that give good intuition
 - For NLP: [Stanford CS224n](https://web.stanford.edu/class/cs224n/)
 - [Neural Networks: Zero to Hero by Andrej Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)\ <br/>
 
-## **CS7643 DL lectures**
+## CS7643 DL lectures
 
 - [OMSCS DL lectures](https://mediaspace.gatech.edu/channel/CS+7643+-+Deep+Learning/267756942)
 - [CS7643 GT on-campus | Fall 2021](https://sites.cc.gatech.edu/classes/AY2022/cs7643_fall/)
   - [lectures](https://www.youtube.com/playlist?list=PL-fZD610i7yB7gDnPDpFcKpHI9X8z3OQ7)\ <br/>
 
-## **Syllabus and other text**
+## Syllabus and other text
 
 - [CS7643 Spring 2024 Syllabus](https://omscs.gatech.edu/sites/default/files/documents/2024/Syllabi-CS%207643%202024-1.pdf)
 - Paper(s) to gauge your math skill:
   - [The Matrix Calculus You Need For Deep Learning](https://arxiv.org/abs/1802.01528)
 - [Papers with Code - A nice read](https://paperswithcode.com/)\ <br/>
 
-## **Textbooks**
+## Textbooks
 
 - [Deep Learning by Ian Goodfellow](https://www.deeplearningbook.org/)
 - [Dive into Deep Learning](https://d2l.ai/)
@@ -45,7 +46,7 @@ Switch between videos for different topics that give good intuition
   - [Understanding Deep Learning by Simon J.D. Prince](https://udlbook.github.io/udlbook/)
   - [Deep Learning by Chris M. Bishop](https://www.bishopbook.com/)\ <br/>
 
-## **Math Background from a previous student**
+## Math Background from a previous student
 
 1. mostly derivatives; all the rules
 2. multiplicative, sum, and thsoe rules, working with cos/sin etc derivatives
