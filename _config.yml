@@ -139,9 +139,9 @@ theme_config:
   copyright:
     start_year: 2011
     end_year:
-  # google_analytics:
-    # enabled: true
-    # id: '?'
+  google_analytics:
+    enabled: true
+    id: '6W84NT3J9R'
   # cdn:
   #   enable: false
   #   jquery: 'url'
@@ -149,10 +149,8 @@ theme_config:
   #   font_awesome: 'url'
   #   justified_gallery_css: 'url'
   #   justified_gallery_js: 'url'
-
-# to be added
-# disqus:
-#   enabled: true
-#   shortname: SITENAME
+  disqus:
+    enabled: true
+    shortname: nkapila
 
 
