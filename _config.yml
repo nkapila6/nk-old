@@ -141,7 +141,7 @@ theme_config:
     end_year:
   google_analytics:
     enabled: true
-    id: 'G-6W84NT3J9R'
+    id: 'G-GMSR2PN6RH'
   # cdn:
   #   enable: false
   #   jquery: 'url'
