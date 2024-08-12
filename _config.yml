@@ -129,6 +129,9 @@ theme_config:
       icon: twitter
       label: "@nkapila6"
       link: https://twitter.com/nkapila6/
+    -
+      icon: linkedin
+      link: https://www.linkedin.com/in/nikhilkapila/
     # -
     #   icon: NAME
     #   label: LABEL
