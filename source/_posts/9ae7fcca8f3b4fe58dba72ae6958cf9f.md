@@ -9,10 +9,10 @@ categories:
   - Masters in CS
   - 6 FL24 CS7643 DL
 date: 1713940542112
-updated: 1723442131661
+updated: 1723443320542
 ---
 
-moved to [nkapila.me](nkapila.me)
+moved to [https://nkapila.me](nkapila.me)
 
 ## Videos
 
