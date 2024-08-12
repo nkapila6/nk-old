@@ -113,7 +113,7 @@ deploy:
 ## THEME configuration
 theme_config:
   # colorscheme: white
-  colorscheme: light
+  colorscheme: dark
 # nav menu
   nav:
     home: /
