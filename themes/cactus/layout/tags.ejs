@@ -1,16 +1,16 @@
 <%- partial('_partial/head') %>
 <div class="page">
   <div class="post-list">
-    <h3>Tags / Categories</h3>
-    a category wise display of posts 
+    <span class="h1"><a href="<%- url_for('/tags') %>">Tags</a></span>
+    a tag wise display of posts 
     <% if (site.tags && site.tags.length > 0) { %>
       <ul class="tag-list">
         <% site.tags.forEach(function(tag){ %>
-          <li class="tag">
+          <li class="tag" style="margin-left: 20px;">
             <b><a href="<%= url_for(tag.path) %>"><%= tag.name %></a></b> (<%= tag.length %>)
-            <ul class="post-list">
+            <ul class="post-list" style="margin-left: 20px;">
               <% tag.posts.forEach(function(post){ %>
-                <li>
+                <li style="margin-left: 20px;">
                   <a href="<%= url_for(post.path) %>"><%= post.title %></a>
                 </li>
               <% }) %>
