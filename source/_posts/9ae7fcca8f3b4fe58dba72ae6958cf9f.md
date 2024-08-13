@@ -12,8 +12,13 @@ date: 1713940542112
 updated: 1723532549627
 ---
 
+Table of contents
+@\[toc]
+
 ## Videos
+
 Switch between videos for different topics that give good intuition
+
 - [Deep Learning for Computer Vision](https://www.youtube.com/playlist?list=PL5-TkQAfAZFbzxjBHtzdVCWE0Zbhomg7r)
 - [Math for Deep Learning - Andreas Geiger (MaDL)](https://www.youtube.com/playlist?list=PL05umP7R6ij0bo4UtMdzEJ6TiLOqj4ZCm)
 - [DL Stanford | Spring 2017](https://www.youtube.com/playlist?list=PLC1qU-LWwrF64f4QKQT-Vg5Wr4qEE1Zxk)
