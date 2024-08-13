@@ -144,8 +144,8 @@ markdown:
 
 ## THEME configuration
 theme_config:
-  # colorscheme: white
-  colorscheme: light
+  colorscheme: dark
+  # show_tags_section: true
 # nav menu
   nav:
     home: /
@@ -195,4 +195,4 @@ theme_config:
     repo: nkapila6/nk
     issue_term: title
     label: blog
-    theme: photon-dark
+    theme: dark-blue
