@@ -9,11 +9,11 @@ categories:
   - Masters in CS
   - 6 FL24 CS7643 DL
 date: 1713940542112
-updated: 1723535438935
+updated: 1723536813842
 ---
 
 **Table of contents**
-\[toc]
+@\[toc]
 
 ## Videos
 
