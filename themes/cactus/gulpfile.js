@@ -37,6 +37,16 @@ gulp.task('lib:install_mesloFont', function () {
     .pipe(gulp.dest('./source/lib/meslo-LG'));
 });
 
+gulp.task('lib:download_notoSansFont', function () {
+  return download('https://github.com/googlefonts/noto-fonts/blob/main/hinted/ttf/NotoSans/NotoSans-Regular.ttf?raw=true')
+    .pipe(gulp.dest("/tmp"));
+})
+
+gulp.task('lib:install_notoSansFont', function () {
+  return gulp.src('/tmp/NotoSans-Regular.ttf')
+    .pipe(gulp.dest('./source/lib/noto-sans'));
+});
+
 gulp.task('lib:vazirFont',function(){
   return gulp.src([
     'node_modules/vazir-font/dist/*',
