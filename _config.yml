@@ -38,7 +38,7 @@ tags:
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
-titlecase: false # Transform title into titlecase
+titlecase: true # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
@@ -113,7 +113,7 @@ deploy:
 ## THEME configuration
 theme_config:
   # colorscheme: white
-  colorscheme: dark
+  colorscheme: light
 # nav menu
   nav:
     home: /
@@ -158,14 +158,3 @@ theme_config:
   disqus:
     enabled: true
     shortname: nkapila
-
-#toc config
-toc:
-  maxdepth: 3
-  class: toc
-  slugify: transliteration
-  decodeEntities: false
-  anchor:
-    position: after
-    symbol: '#'
-    style: header-anchor
