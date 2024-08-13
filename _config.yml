@@ -105,6 +105,9 @@ ignore:
 # theme: landscape
 theme: cactus
 
+plugins:
+  - ./scripts/toc-filter.js
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
