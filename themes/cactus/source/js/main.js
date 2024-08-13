@@ -77,6 +77,13 @@ $(document).ready(function() {
       });
     }
 
+    /** fixing nav menu scroll issue */
+
+    
+
+    // hide only the navigation links on desktop
+
+
     /**
      * Show mobile navigation menu after scrolling upwards,
      * hide it again after scrolling downwards.
@@ -84,29 +91,37 @@ $(document).ready(function() {
     if ($( "#footer-post").length) {
       var lastScrollTop = 0;
       $(window).on("scroll", function() {
-        var topDistance = $(window).scrollTop();
-
-        if (topDistance > lastScrollTop){
-          // downscroll -> show menu
-          $("#footer-post").hide();
-        } else {
-          // upscroll -> hide menu
-          $("#footer-post").show();
+        // var topDistance = $(window).scrollTop();
+        var topDistance = document.documentElement.scrollTop;// menu.offset().top;
+        const distanceLimit = 50;
+        if (!nav.is(":visible") && topDistance < distanceLimit) {
+          nav.show();
+        } else if (nav.is(":visible") && topDistance >= distanceLimit) {
+          nav.hide();
         }
-        lastScrollTop = topDistance;
 
-        // close all submenu"s on scroll
-        $("#nav-footer").hide();
-        $("#toc-footer").hide();
-        $("#share-footer").hide();
+        // if (topDistance > lastScrollTop){
+        //   // downscroll -> show menu
+        //   $("#footer-post").hide();
+        // } else {
+        //   // upscroll -> hide menu
+        //   $("#footer-post").show();
+        // }
+        // lastScrollTop = topDistance;
+
+        // // close all submenu"s on scroll
+        // $("#nav-footer").hide();
+        // $("#toc-footer").hide();
+        // $("#share-footer").hide();
+
 
         // show a "navigation" icon when close to the top of the page, 
         // otherwise show a "scroll to the top" icon
-        if (topDistance < 50) {
-          $("#actions-footer > #top").hide();
-        } else if (topDistance > 100) {
-          $("#actions-footer > #top").show();
-        }
+        // if (topDistance < 50) {
+        //   $("#actions-footer > #top").hide();
+        // } else if (topDistance > 100) {
+        //   $("#actions-footer > #top").show();
+        // }
       });
     }
   }
