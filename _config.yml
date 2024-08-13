@@ -187,6 +187,12 @@ theme_config:
   #   font_awesome: 'url'
   #   justified_gallery_css: 'url'
   #   justified_gallery_js: 'url'
-  disqus:
+  # disqus:
+  #   enabled: true
+  #   shortname: nkapila
+  utterances:
     enabled: true
-    shortname: nkapila
+    repo: nkapila6/nk
+    issue_term: title
+    label: blog
+    theme: photon-dark
