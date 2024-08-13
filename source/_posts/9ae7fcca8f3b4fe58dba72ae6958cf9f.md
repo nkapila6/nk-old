@@ -12,6 +12,8 @@ date: 1713940542112
 updated: 1723443320542
 ---
 
+moved to [https://nkapila.me](nkapila.me)
+
 ## Videos
 
 Switch between videos for different topics that give good intuition
