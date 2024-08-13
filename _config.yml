@@ -172,3 +172,4 @@ markdown_it_plus:
     typographer:
     quotes: “”‘’
     pre_class: highlight
+    toc: true
