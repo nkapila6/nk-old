@@ -110,6 +110,9 @@ theme: cactus
 deploy:
   type: ''
 
+alias:
+  zoom/index.html: https://bit.ly/NikhilsZoom
+
 ## THEME configuration
 theme_config:
   # colorscheme: white
